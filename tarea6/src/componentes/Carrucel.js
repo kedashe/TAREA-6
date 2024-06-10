@@ -4,8 +4,8 @@ import '../styles/Carrucel.css'; // Importamos el archivo CSS
 import Img1 from "../imagenes/imagen1.jpg";
 import Img2 from "../imagenes/imagen2.jpg";
 import Img3 from "../imagenes/imagen3.jpg";
-import Img4 from "../imagenes/imagen3.jpg"; // Corregido
-import Img5 from "../imagenes/imagen2.jpg"; // Corregido
+import Img4 from "../imagenes/imagen8.jpg"; // Corregido
+import Img5 from "../imagenes/imagen7.jpg"; // Corregido
 import Img6 from "../imagenes/imagen1.jpg"; // Corregido
 
 export const Carrucel = () => {

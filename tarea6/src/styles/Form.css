@@ -1,0 +1,69 @@
+/* Form.css */
+/* Form.css */
+.form-check {
+    margin-bottom: 10px; /* Ajusta el margen inferior del elemento .form-check */
+  }
+  
+.form-container {
+    background: linear-gradient(
+      30deg,
+      rgb(39, 37, 38),
+      rgb(111, 108, 107),
+      rgb(74, 77, 86),
+      rgb(87, 78, 78),
+      rgb(13, 13, 13)
+    );
+     /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .form-content {
+    width: 1000px; /* Establece el ancho máximo del formulario */
+    padding: 10px; /* Agrega relleno alrededor del formulario */
+  }
+  tick{
+
+    padding: 10%;
+    margin-bottom: 10%;
+  }
+  /* Form.css */
+.form-container {
+    background: linear-gradient(
+      30deg,
+      rgb(39, 37, 38),
+      rgb(111, 108, 107),
+      rgb(74, 77, 86),
+      rgb(87, 78, 78),
+      rgb(13, 13, 13)
+    );
+    /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-content {
+    width: 1000px; /* Establece el ancho máximo del formulario */
+    padding: 10px; /* Agrega relleno alrededor del formulario */
+  }
+  
+  /* Ajuste del color del botón */
+  .btn-primary {
+    background-color: transparent; /* Establece el color de fondo transparente */
+    border-color: transparent; /* Establece el color del borde transparente */
+    color: white; /* Establece el color del texto en blanco */
+  }
+  /* Form.css */
+.btn-primary {
+    background-color: transparent; /* Establece el color de fondo transparente */
+    border-color: transparent; /* Establece el color del borde transparente */
+    color: white; /* Establece el color del texto en blanco */
+  }
+  
+  .btn-primary:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    border-color: #333; /* Cambia el color del borde al pasar el cursor sobre el botón */
+  }
+  
+  
