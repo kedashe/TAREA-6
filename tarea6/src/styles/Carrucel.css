@@ -1,0 +1,54 @@
+/* Carysel.css */
+.carysel-container {
+  background-color: linear-gradient(
+    30deg,
+    rgb(39, 37, 38),
+    rgb(111, 108, 107),
+    rgb(74, 77, 86),
+    rgb(87, 78, 78),
+    rgb(13, 13, 13)
+  ); /* Utilizamos el mismo fondo que en .App */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.carysel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  grid-gap: 35px; /* Espacio mayor entre las imágenes */
+}
+
+.carysel-item {
+  position: relative; /* Agregamos posición relativa para trabajar con la pseudo-clase hover */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un poco de estilo */
+  transition: filter 0.3s ease; /* Agregamos una transición suave al filtro */
+}
+
+.carysel-item:hover {
+  filter: brightness(50%); /* Aplicamos el efecto de difuminado al pasar el cursor */
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .carysel-grid {
+    grid-template-columns: repeat(1, 1fr); /* Cambiamos a dos columnas para dispositivos móviles */
+    grid-gap: 30px; /* Reducimos el espacio entre las imágenes */
+  }
+}
+
+/* Aplicar el mismo fondo a .App */
+.App {
+  background: linear-gradient(
+    30deg,
+    rgb(39, 37, 38),
+    rgb(111, 108, 107),
+    rgb(74, 77, 86),
+    rgb(87, 78, 78),
+    rgb(13, 13, 13)
+  );
+}
